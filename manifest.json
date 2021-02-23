@@ -1,0 +1,29 @@
+{
+
+  "manifest_version": 2,
+  "name": "format-copy",
+  "version": "1.0",
+
+  "description": "Specify a format to copy links",
+	"homepage_url": "https://github.com/yi-fan-song/format-copy-for-firefox",
+
+  "icons": {
+    "48": "icons/content_copy_white_48dp.png"
+  },
+
+	"permissions": [
+		"tabs",
+    "activeTab",
+		"clipboardWrite"
+  ],
+
+	"browser_action": {
+    "default_icon": "icons/content_copy_white_48dp.png",
+    "default_title": "Copy and format"
+  },
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+
+}
